@@ -1,0 +1,47 @@
+{
+  "name": "rtcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/runtime": "^7.15.4",
+    "@fullcalendar/daygrid": "^5.10.0",
+    "@fullcalendar/interaction": "^5.10.0",
+    "@fullcalendar/react": "^5.10.0",
+    "html-webpack-plugin": "^5.4.0",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.2",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.5",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.4.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "jest": "^27.3.1",
+    "jest-react-hooks-shallow": "^1.5.1",
+    "jsdom": "18.0.0",
+    "jsdom-global": "3.0.2",
+    "react-test-renderer": "^17.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "scripts": {
+    "test": "jest test",
+    "test-coverage": "jest test --coverage --watchAll",
+    "start": "webpack serve  --hot --open --mode development",
+    "build": "webpack --config webpack.config.js --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
