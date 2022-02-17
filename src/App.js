@@ -10,7 +10,7 @@ const App = () => {
     function handleEventClick(arg) {
         let event_details = arg.event._def.extendedProps;
         //Setting Title same as Wordpress API result 
-        let title = { rendered: arg.event._def.title };
+        const title = { rendered: arg.event._def.title };
         setEvent({ ...event_details, title });
     }
     const [events, setEvents] = useState([]);
